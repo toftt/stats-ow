@@ -26,11 +26,11 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(["dist"]),
     new HtmlWebpackPlugin({
-      template: "src/frontend/index.html"
+      template: "./src/frontend/index.html"
     })
   ],
   resolve: {
-    extensions: [".tsx", ".ts", ".js"]
+    extensions: [".js"]
   },
   output: {
     filename: "bundle.js",
