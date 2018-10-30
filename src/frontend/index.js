@@ -3,7 +3,9 @@ import React from 'react';
 
 import './global.css';
 
+import Root from './Root';
+
 ReactDOM.render(
-  <h1>hello</h1>,
+  <Root />,
   document.getElementById('root')
 );
